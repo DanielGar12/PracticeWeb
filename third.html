@@ -2,17 +2,18 @@
 <html>
     <head>
         <link   rel="stylesheet" type="text/css"href="style.css"/>
+        <script type="text/javascript" src="validation.js" defer> </script>
     </head>
     <body class="RegisterScreen">
         <div class="registerBox">
             <h1>Register</h1>
-            <form id="RegisterForm" action="./first.html">
+            <form id="RegisterForm">
                 <label>Email:</label>
-                <input type="email" placeholder="Email" required>
+                <input type="email" name="email" id="Email" placeholder="Email" required>
                 <label>Username:</label>
-                <input type="Text" placeholder="Username" required>
+                <input type="Text" name="username" id="Username" placeholder="Username" required>
                 <label>Password:</label>
-                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Password" name ="password" id="Password" required>
                 <button id="RegistrationButton" type="Submit">Register</button>
             </form>
         </div>
